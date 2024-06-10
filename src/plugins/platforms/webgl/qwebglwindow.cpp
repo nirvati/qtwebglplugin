@@ -46,7 +46,7 @@
 
 QT_BEGIN_NAMESPACE
 
-static Q_LOGGING_CATEGORY(lc, "qt.qpa.webgl.window")
+Q_STATIC_LOGGING_CATEGORY(lc, "qt.qpa.webgl.window")
 
 QAtomicInt QWebGLWindowPrivate::nextId(1);
 

@@ -50,7 +50,7 @@
 
 QT_BEGIN_NAMESPACE
 
-static Q_LOGGING_CATEGORY(lc, "qt.qpa.webgl.httpserver")
+Q_STATIC_LOGGING_CATEGORY(lc, "qt.qpa.webgl.httpserver")
 
 struct HttpRequest {
     quint16 port = 0;

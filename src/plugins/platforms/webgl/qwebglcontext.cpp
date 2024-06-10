@@ -53,7 +53,7 @@
 
 QT_BEGIN_NAMESPACE
 
-static Q_LOGGING_CATEGORY(lc, "qt.qpa.webgl.context")
+Q_STATIC_LOGGING_CATEGORY(lc, "qt.qpa.webgl.context")
 
 class QWebGLContextPrivate
 {
